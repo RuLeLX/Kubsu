@@ -1,11 +1,8 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import '../style/LogoKubsu.css'
 import { ReactComponent as LogoKubsu } from '../image/Logosvg.svg';
 
 export default function Welcome() {
-
-    const [visible, setVisible] = useState(true);
 
     // useEffect(()=>{
     //     setTimeout(()=>{
@@ -13,7 +10,7 @@ export default function Welcome() {
     //     }, 4000)
     // }, [])
     
-    return <>
-        <LogoKubsu />
-    </>
+    return <LogoKubsu className='LogoKubsu'/>
+        
+    
 }

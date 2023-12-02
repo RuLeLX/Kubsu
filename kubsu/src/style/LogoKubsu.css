@@ -1,0 +1,11 @@
+@media (max-height: 800px) {
+    .LogoKubsu {
+        height: 434px;
+    }
+}
+
+@media (max-height: 449px) {
+    .LogoKubsu {
+        height: 230px;
+    }
+}

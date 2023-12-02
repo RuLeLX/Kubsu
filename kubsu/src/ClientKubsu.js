@@ -1,15 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { useState } from 'react';
+import { useEffect } from 'react';
 import Welcome from './Components/Welcome'
-import './style/Welcome.css'
+import './style/Welc.css'
 
 //Output Kubsu logo, but after 2 sec see UserForm
 export default function ClientKubsu() {
 
 
+
     return <> 
-        <div  className="Welcome">
+        <div  className="Welc">
             <Welcome/>
         </div>
     </>
